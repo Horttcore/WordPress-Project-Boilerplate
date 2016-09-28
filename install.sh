@@ -1,0 +1,2 @@
+# Remove script
+# install.sh
