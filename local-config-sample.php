@@ -3,6 +3,7 @@ define( 'DB_NAME', 'database' );
 define( 'DB_USER', 'user' );
 define( 'DB_PASSWORD', 'password' );
 define( 'DB_HOST', 'localhost' );
+$table_prefix  = 'wp_';
 
 ini_set( 'display_errors', E_ALL );
 define( 'WP_DEBUG_DISPLAY', true );

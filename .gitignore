@@ -11,6 +11,7 @@ local-config.php
 # Don’t ignore themes dir, but ignore everything inside
 !public/wp-content/themes
 public/wp-content/themes/*
+!public/wp-content/themes/semvox
 
 # Don’t ignore project theme
 !public/wp-content/themes/wordpress-theme-boilerplate

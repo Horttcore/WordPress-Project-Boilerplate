@@ -23,13 +23,15 @@ Point root url to `public/index.php`
 
 ## Develop
 
-cp local-config-sample.php local-config.php
+* `cp local-config-sample.php local-config.php`
+* Edit database connection settings
 
 ```sh
 $ # Go to theme folder
 $ sudo npm install
 $ gulp
 ```
+
 ## Staging
 
 ### Restrict Access
@@ -48,3 +50,8 @@ AuthGroupFile /dev/null
 require valid-user
 # END ACCESS
 ```
+
+## Production
+
+* `cp local-config-sample.php production-config.php`
+* Edit database connection settings

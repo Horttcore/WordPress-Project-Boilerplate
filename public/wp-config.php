@@ -44,8 +44,6 @@ define( 'AUTOMATIC_UPDATER_DISABLED', false );
 // =======================
 // Load WordPress Settings
 // =======================
-$table_prefix  = 'wp_';
-
 if ( ! defined( 'ABSPATH' ) ) {
     define( 'ABSPATH', dirname( __FILE__ ) . '/wp/' );
 }
