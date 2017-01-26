@@ -4,6 +4,8 @@
 
 * Composer
 * NPM
+* yarn
+* bower
 * WP CLI
 
 ## Install
@@ -17,24 +19,34 @@ $ cd WordPress-Project-Boilerplate
 
 $ # install using composer
 $ composer install
+
+$ # Edit enviroments
+$ mv wp-config.env.sample.php wp-config.env.php
 ```
 
 Point root url to `public/index.php`
 
-## Develop
+### Develop
 
-* `cp local-config-sample.php local-config.php`
-* Edit database connection settings
+```sh
+$ mv wp-config.development.sample.php wp-config.development.php
+```
+Edit database connection settings
 
 ```sh
 $ # Go to theme folder
-$ sudo npm install
+$ yarn
 $ gulp
 ```
 
-## Staging
+### Staging
 
-### Restrict Access
+```sh
+$ # Edit database connection settings
+$ mv wp-config.staging.sample.php wp-config.staging.php
+```
+
+#### Restrict Access
 
 ```sh
 $ # Generate .htpasswd
@@ -51,7 +63,9 @@ require valid-user
 # END ACCESS
 ```
 
-## Production
+### Production
 
-* `cp local-config-sample.php production-config.php`
-* Edit database connection settings
+```sh
+$ # Edit database connection settings
+$ mv wp-config.production.sample.php wp-config.production.php
+```

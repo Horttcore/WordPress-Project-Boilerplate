@@ -1,5 +1,5 @@
 {
-    "name": "horttcore/semvox",
+    "name": "horttcore/wordpress-project-boilerplate",
     "description": "",
     "authors": [
         {
@@ -10,60 +10,12 @@
         {
             "type": "composer",
             "url": "https://wpackagist.org"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "deliciousbrains/wp-migrate-db-pro",
-                "type": "wordpress-plugin",
-                "version": "1.6.1",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=73e3f58e-c9fc-4ebc-9fe9-258dffd86b3b&site_url=composer-test.dev"
-                },
-                "require": {
-                    "composer/installers": "*"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "deliciousbrains/wp-migrate-db-pro-media-files",
-                "type": "wordpress-plugin",
-                "version": "1.4.5",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-media-files-latest.zip?licence_key=73e3f58e-c9fc-4ebc-9fe9-258dffd86b3b&site_url=composer-test.dev"
-                },
-                "require": {
-                    "composer/installers": "*"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "deliciousbrains/wp-migrate-db-pro-cli",
-                "type": "wordpress-plugin",
-                "version": "1.1",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-cli-latest.zip?licence_key=73e3f58e-c9fc-4ebc-9fe9-258dffd86b3b&site_url=composer-test.dev"
-                },
-                "require": {
-                    "composer/installers": "*"
-                }
-            }
         }
     ],
     "require": {
         "php": ">=5.4",
         "composer/installers": "*",
         "johnpbloch/wordpress": "*",
-        "deliciousbrains/wp-migrate-db-pro": "*",
-        "deliciousbrains/wp-migrate-db-pro-media-files": "*",
-        "deliciousbrains/wp-migrate-db-pro-cli": "*",
         "wpackagist-plugin/wordpress-seo": "*",
         "horttcore/wordpress-theme-boilerplate": "dev-master"
     },
