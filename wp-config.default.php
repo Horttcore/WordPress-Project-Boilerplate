@@ -51,16 +51,16 @@ $table_prefix  = 'wp_';
 /**
  * Custom Content Directory
  */
-define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/public/wp-content' );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
 
 /**
  * Set Home and Siteurl
  */
- define('WP_HOME','http://' . $_SERVER['HTTP_HOST']);
- define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST'] . '/wp');
+define('WP_HOME','http://' . $_SERVER['HTTP_HOST']);
+define('WP_SITEURL','http://' . $_SERVER['HTTP_HOST'] . '/wp');
 
 /**
- * Language
+ * Filesystem
  */
- define( 'WPLANG', 'de_DE' );
+define( 'FS_METHOD', 'direct' );
