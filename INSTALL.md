@@ -26,7 +26,11 @@ $ mv wp-config.env.sample.php wp-config.env.php
 
 Point root url to `public/index.php`
 
-### Develop
+Set security salts in `wp-config.default.php`
+
+Set table prefix in `wp-config.default.php`
+
+### Development
 
 ```sh
 $ mv wp-config.development.sample.php wp-config.development.php
