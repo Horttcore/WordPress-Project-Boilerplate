@@ -21,7 +21,7 @@ $ # install using composer
 $ composer install
 
 $ # Edit enviroments
-$ mv wp-config.env.sample.php wp-config.env.php
+$ cp wp-config.env.sample.php wp-config.env.php
 ```
 
 Point root url to `public/index.php`
