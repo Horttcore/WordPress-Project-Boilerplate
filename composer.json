@@ -16,6 +16,7 @@
         "php": ">=5.4",
         "composer/installers": "*",
         "johnpbloch/wordpress": "*",
+        "wpackagist-plugin/svg-support": "*",
         "wpackagist-plugin/wordpress-seo": "*",
         "horttcore/wordpress-theme-boilerplate": "dev-master"
     },
