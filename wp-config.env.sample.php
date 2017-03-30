@@ -27,15 +27,15 @@
 switch ( $hostname ) :
 
 	default:
-	case 'domain.dev':
+	case '.dev':
 		define('WP_ENV', 'development');
 		break;
 
-	case 'staging.domain.com':
+	case 'kunde.horttcore.de':
 		define('WP_ENV', 'staging');
 		break;
 
-	case 'www.domain.com':
+	case '':
 		define('WP_ENV', 'production');
 		break;
 
