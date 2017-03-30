@@ -24,16 +24,19 @@
  *   case 'localhost':
  *
  */
-switch ($hostname) {
-	default: 
-    case 'domain.dev':
-        define('WP_ENV', 'development');
-        break;
+switch ( $hostname ) :
 
-    case 'staging.domain.com':
-        define('WP_ENV', 'staging');
-        break;
+	default:
+	case 'domain.dev':
+		define('WP_ENV', 'development');
+		break;
 
-    case 'www.domain.com':
-        define('WP_ENV', 'production');
-}
+	case 'staging.domain.com':
+		define('WP_ENV', 'staging');
+		break;
+
+	case 'www.domain.com':
+		define('WP_ENV', 'production');
+		break;
+
+endswitch;
