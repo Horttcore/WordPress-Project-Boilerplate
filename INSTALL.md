@@ -47,7 +47,7 @@ $ gulp
 
 ```sh
 $ # Edit database connection settings
-$ mv wp-config.staging.sample.php wp-config.staging.php
+$ cp wp-config.staging.sample.php wp-config.staging.php
 ```
 
 #### Restrict Access
@@ -71,5 +71,5 @@ require valid-user
 
 ```sh
 $ # Edit database connection settings
-$ mv wp-config.production.sample.php wp-config.production.php
+$ cp wp-config.production.sample.php wp-config.production.php
 ```
