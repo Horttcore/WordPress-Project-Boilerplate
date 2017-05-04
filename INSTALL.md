@@ -33,7 +33,7 @@ Set table prefix in `wp-config.default.php`
 ### Development
 
 ```sh
-$ mv wp-config.development.sample.php wp-config.development.php
+$ cp wp-config.development.sample.php wp-config.development.php
 ```
 Edit database connection settings
 
